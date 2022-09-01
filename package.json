@@ -1,6 +1,9 @@
 {
   "name": "Unit-3-Project-smallcase",
   "version": "1.0.0",
+  "engines":{
+    "node":"16.15.1"
+  },
   "description": "**Note : This project is made just for educational purposes**",
   "main": "src/server.js",
   "scripts": {
