@@ -1,8 +1,8 @@
 {
   "name": "Unit-3-Project-smallcase",
   "version": "1.0.0",
-  "engines":{
-    "node":"16.15.1"
+  "engines": {
+    "node": "16.15.1"
   },
   "description": "**Note : This project is made just for educational purposes**",
   "main": "src/server.js",
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "css:build": "tailwind build ./tailwindconf/style.css -o ./src/public/css/style.css",
     "server": "redis-server & nodemon -e html,ejs,js ./src/server.js ",
-    "start": "redis-server & nodemon src/server.js"
+    "start": "brew install redis & nodemon src/server.js"
   },
   "repository": {
     "type": "git",
